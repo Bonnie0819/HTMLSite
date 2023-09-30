@@ -1,6 +1,9 @@
+/**/
 .nav {
     background-color: #022c6e;
     overflow: hidden;
+    width: 100%;
+
 }
 .nav a {
     float: left;
@@ -9,9 +12,11 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-right: 1px solid #bbb;
   }
+
+  /* Styling for the form in index.html*/
   form {
-    /* Center the form on the page */
     float: left;
     margin: 0 auto;
     width: 400px;
@@ -19,4 +24,22 @@
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+  }
+
+  /* Styling different headers for different pages */
+  header {
+    color:#7fffd4;
+  }
+  .spots {
+    color:#ffffff;
+    border: 2px solid black;
+    padding: 25px;
+    background: url(nycNightView.webp);
+    background-repeat: no-repeat;
+    background-size: 1500px 1500px;
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    
+    
   }
