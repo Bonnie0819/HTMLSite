@@ -1,0 +1,22 @@
+.nav {
+    background-color: #022c6e;
+    overflow: hidden;
+}
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  form {
+    /* Center the form on the page */
+    float: left;
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
