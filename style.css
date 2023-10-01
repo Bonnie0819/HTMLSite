@@ -27,24 +27,10 @@
   }
   /*Styles the body of the html code*/
   body {
+    background-color: #d5d5e7;
     color: #022c6e;
   }
-
-  /* Styling different headers for different pages */
-  header {
-    color:#7fffd4;
-  }
-  .spots {
-    color:#ffffff;
-    border: 2px solid black;
-    padding: 25px;
-    background: url(nycNightView.webp);
-    background-repeat: no-repeat;
-    background-size: 1500px 1500px;
-    background-size: contain;
-    width: 100%;
-    height: 500px;   
-  }
+  
 
   /*footer*/
   footer {
