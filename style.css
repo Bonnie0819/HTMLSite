@@ -5,6 +5,9 @@
     width: 100%;
 
 }
+span {
+  color: #6a06bd;
+}
 .nav a {
     float: left;
     color: #f2f2f2;
@@ -13,6 +16,16 @@
     text-decoration: none;
     font-size: 17px;
     border-right: 1px solid #bbb;
+  }
+  figure {
+    float: right;
+    margin-top: -250px;
+    padding: 20px 20px;
+    top:0;
+    display: inline-block;
+  }
+  figure img {
+    vertical-align: top;
   }
   /*To make the images float to the right*/
   .images {
@@ -24,8 +37,10 @@
 
   /* Styling for the form in index.html*/
   form {
-    float: left;
+    background-color: #ffffff;
+    float: right;
     margin: 0 auto;
+    margin-top: -250px;
     width: 400px;
     /* Form outline */
     padding: 1em;
